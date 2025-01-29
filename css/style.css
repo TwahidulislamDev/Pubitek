@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, ol, a{
+    text-decoration: none;
+    list-style-type: none
+}
+h1,h2,h3,h4,h5,h6 p {
+    margin: 0;
+    padding: 0;
+}
+
+#headeerPart{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.headerFlex{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0 30px;
+}
+.menu ul li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Barlow", serif;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    color: #ee2e24;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Barlow", serif;
+}
+.bar i{
+    font-size: 40px;
+    color: white;
+    transition: .5s;
+}
+.bar i:hover{
+    font-size: 40px;
+    color: #ee2e24;
+}
+
+#bannerPart{
+    padding-top: 150px;
+    background-color: #4B0088;
+}
+.bannerFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannerText h3{
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    font-family: "Barlow", serif;
+}
+.bannerText h1{
+    padding-right: 200px; 
+    font-size: 65px;
+    font-weight: 600;
+    color: white; 
+    line-height: 70px;
+    font-family: "Barlow", serif;
+}
+.bannerText p{
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    line-height: 25px;
+    font-family: "Barlow", serif;
+    padding: 15px 0 ;    
+}
+.bannerBtn button{
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: #f5a30d;
+    font-family: "Barlow", serif;
+    font-size: 16px;
+    transition: .5s;
+}
+.bannerBtn button:hover{
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: #ee2e24;
+    font-family: "Barlow", serif;
+    font-size: 16px;
+}
+
+#blogPart{
+    padding: 150px 0;
+}
+.blogFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.LblogPart{
+    width: 50%;
+}
+.RblogPart{
+    width: 50%;
+}
+.LblogPart h3{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Barlow", serif;
+}
+.LblogPart h1{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: "Barlow", serif;
+    
+}
+.LblogPart span{
+    font-weight: 600;
+    color: #4B0088;
+}
+.LblogPart p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Barlow", serif;
+    padding-top: 10px;  
+}
+.RblogPart p{
+    padding-right: 55px;
+    font-size: 20px;
+    font-family: "Barlow", serif;
+}
+.RblogPart h4{
+    padding-right: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Barlow", serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.RblogPart h3{
+    padding-right: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Barlow", serif;
+    padding-bottom: 10px;
+}
+.RblogPart h2{
+    padding-right: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Barlow", serif;
+    color: #4B0088;
+}
+
+
+font-family: "Barlow", serif;
