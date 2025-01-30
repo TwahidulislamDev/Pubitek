@@ -308,4 +308,66 @@ h1,h2,h3,h4,h5,h6 p {
 .positionLowerCardRight img{
     width: 100%;
 }
-font-family: "Barlow", serif;
+#customarPart{  
+    background: url(../images/modern-office-329113851.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.customerOverlay{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 150px 0;
+}
+.customertext{
+    /* text-align: center; */
+}
+.customertext h3{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Barlow", serif;
+    color: white;
+}
+.customertext h1{
+    font-size: 55px;
+    font-weight: 300;
+    font-family: "Barlow", serif;
+    color: white;
+}
+.customertext h1 span{
+    font-size: 55px;
+    font-weight: 600;
+    font-family: "Barlow", serif;
+    color: white;
+}
+.customertext p{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Barlow", serif;
+    color: white;
+}
+.customerIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.customerIconOne{
+    text-align: center;
+}
+
+.customerIconOne h1{
+    padding-top: 10px;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Barlow", serif;
+}
+.customerIconOne p{
+    padding-top: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Barlow", serif;
+}
+/* font-family: "Barlow", serif; */
