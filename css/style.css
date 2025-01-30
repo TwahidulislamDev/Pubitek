@@ -233,4 +233,79 @@ h1,h2,h3,h4,h5,h6 p {
     padding-top: 10px;
 
 }
+
+#positionPart{
+    margin: 100px 0;
+}
+
+.positionText{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.positionText h3{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Barlow", serif;
+}
+.positionText h1{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: "Barlow", serif;
+}
+.positionText span{
+    font-weight: 600;
+    color: #4B0088;
+}
+.positionText p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Barlow", serif;
+    padding-top: 10px;  
+}
+.poistionCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.PositionCardLeftDiv{
+    width: 22.5%;
+}
+.positionUpperCardLeft{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.positionUpperCardLeft img{
+    width: 100%;
+}
+.positionLowerCardLeft{
+    width: 100%;
+    padding-top: 20px;
+}
+.positionLowerCardLeft img{
+    width: 100%;
+}
+.PositionCardMidDiv{
+    width: 50%;
+}
+.PositionCardMidDiv img{
+    width: 100%;
+}
+.PositionCardRightDiv{
+    width: 22.5%;
+    
+}
+.positionUpperCardRight{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.positionUpperCardRight img{
+    width: 100%;
+}
+.positionLowerCardRight{
+    width: 100%;
+    padding-top: 20px;
+}
+.positionLowerCardRight img{
+    width: 100%;
+}
 font-family: "Barlow", serif;
