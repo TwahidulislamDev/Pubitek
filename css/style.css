@@ -9,6 +9,7 @@ ul, ol, a{
 h1,h2,h3,h4,h5,h6 p {
     margin: 0;
     padding: 0;
+    
 }
 
 #headeerPart{
@@ -169,5 +170,67 @@ h1,h2,h3,h4,h5,h6 p {
     color: #4B0088;
 }
 
+#iconSection{
+    padding-top: 100px;
+    background: #4B0088;
+}
+.iconFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconUpperText{
+    width: 50%;
+}
+.iconLogo{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.iconUpperText h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    line-height: 32px;
+    font-family: "Barlow", serif;
+}
+.iconUpperText h1{
+    font-size: 55px;
+    font-weight: 300;
+    color: white;
+    
+    font-family: "Barlow", serif;
+}
+.iconUpperText h1 span{
+    font-size: 55px;
+    font-weight: 600;
+    color: white;
+    
+    font-family: "Barlow", serif;
+}
+.iconUpperText p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    line-height: 32px;
+    font-family: "Barlow", serif;
+}
+.iconLowerImg{
+    margin-top: 20px;
+}
+.iconOne{
+    text-align: center;
+    width: 32%;
+    padding: 20px 0;
+}
+.iconOne h3{
+    color: white;
+    font-weight: 400;
+    font-family: "Barlow", serif;
+    padding-top: 10px;
 
+}
 font-family: "Barlow", serif;
